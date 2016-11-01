@@ -26,6 +26,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'fog-json'
   spec.add_runtime_dependency 'fog-xml'
   spec.add_runtime_dependency 'fog-dynect', '~> 0.1.0'
+  spec.add_runtime_dependency 'fog-aws', '~> 0.12.0'
   spec.add_runtime_dependency 'ejson'
 
   spec.add_development_dependency 'rake'

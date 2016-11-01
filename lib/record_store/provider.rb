@@ -15,6 +15,8 @@ module RecordStore
           'DNSimple'
         when /dynect\.net\z/
           'DynECT'
+        when /awsdns/
+          'Route53'
         else
           nil
         end
@@ -51,15 +53,15 @@ module RecordStore
         raise NotImplementedError
       end
 
-      def add(record)
+      def add(record, zone)
         raise NotImplementedError
       end
 
-      def remove(record)
+      def remove(record, zone)
         raise NotImplementedError
       end
 
-      def update(id, record)
+      def update(id, record, zone)
         raise NotImplementedError
       end
 

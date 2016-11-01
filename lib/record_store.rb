@@ -28,6 +28,7 @@ require 'record_store/changeset'
 require 'record_store/provider'
 require 'record_store/provider/dynect'
 require 'record_store/provider/dnsimple'
+require 'record_store/provider/route53'
 require 'record_store/cli'
 
 module RecordStore
