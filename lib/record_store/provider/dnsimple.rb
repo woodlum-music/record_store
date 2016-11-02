@@ -132,6 +132,7 @@ module RecordStore
           record_hash[:prio] = record.preference
           record_hash[:content] = record.exchange.chomp('.')
         when 'NS'
+          record_hash[:ttl] = 3600
           record_hash[:content] = record.nsdname.chomp('.')
         when 'SPF', 'TXT'
           record_hash[:content] = record.txtdata.gsub('\;', ';')

@@ -6,6 +6,7 @@ module RecordStore
 
     def initialize(record)
       super
+      @ttl = 0
       @nsdname = Record.ensure_ends_with_dot(record.fetch(:nsdname))
     end
 
