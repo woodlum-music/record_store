@@ -51,7 +51,7 @@ All CI validations only require READ permissions; deploying requires a user with
 
 In addition, the `AliasService` permission is required to be able to read or write ALIAS records on DynECT.
 
-For a breakdown of what each permission allows read through [DynECT's permissions guide](https://help.dyn.com/user-and-group-permissions/).
+For a breakdown of what each permission allows read through [DynECT's permissions guide](https://help.dyn.com/use QRr-and-group-permissions/).
 
 ### Google Cloud DNS
 
